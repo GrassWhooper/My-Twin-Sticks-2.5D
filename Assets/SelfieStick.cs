@@ -9,6 +9,7 @@ public class SelfieStick : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        print("hey");
         player = GameObject.FindGameObjectWithTag("Player");
         armRotation = transform.rotation.eulerAngles;
 	}
